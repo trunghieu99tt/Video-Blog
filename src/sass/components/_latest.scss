@@ -1,0 +1,110 @@
+.latest {
+	padding-top: 65px;
+	.heading-post {
+		overflow: hidden;
+		border-bottom: 1px solid #2b2b2b;
+		padding-bottom: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-bottom: 33px;
+
+		.wrap-title {
+			padding-right: 30px;
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			margin-left: -20px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			.title {
+				font-weight: 600;
+				font-size: 24px;
+				line-height: 1.1;
+				color: #fff;
+				text-transform: uppercase;
+				word-break: break-word;
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+
+			.link {
+				font-weight: 300;
+				font-size: 14px;
+				line-height: 1.5;
+				color: $red-color;
+				text-decoration: underline;
+				word-break: break-word;
+				border-left: 1px solid #2b2b2b;
+				padding: 0px 0 3px 20px;
+				transition: all 0.2s;
+				position: relative;
+
+				&::after {
+					position: absolute;
+					bottom: 3px;
+					left: 20px;
+					right: 0;
+					height: 1px;
+					content: "";
+					background-color: $red-color;
+					transition: all 0.2s;
+				}
+			}
+		}
+
+		.categories {
+			overflow: hidden;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			flex-grow: 1;
+
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				align-items: center;
+
+				li {
+					position: relative;
+					padding: 3px 0;
+
+					&:not(:first-child)::before {
+						content: "•";
+						font-family: inherit;
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 1.85;
+						color: #6b6b6b;
+						position: absolute;
+						top: 3px;
+						left: -20px;
+					}
+
+					a {
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 1.85;
+						color: #7c7c7c;
+						text-transform: uppercase;
+						word-break: break-word;
+						transition: all 0.2s;
+
+						&:hover {
+							color: $red-color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.grid-items {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-template-rows: minmax(100px, auto);
+		grid-gap: 20px;
+	}
+}

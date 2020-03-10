@@ -1,0 +1,68 @@
+.card1-item {
+	margin-bottom: 30px;
+}
+
+.card1 {
+	&__pic {
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 26px;
+
+		img {
+			width: 100%;
+			transition: all 0.5s ease-out;
+		}
+	}
+
+	&__labels {
+		max-width: calc(100% - 30px);
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+		display: flex;
+
+		.label {
+			font-weight: 500;
+			font-size: 12px;
+			line-height: 1.5;
+			color: #fff;
+			word-break: break-word;
+			text-align: center;
+			background: #e40914;
+			padding: 2px 11px;
+		}
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 1.222222;
+		color: #fff;
+		text-align: center;
+		word-break: break-word;
+		margin-bottom: 8px;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		height: 20px;
+		a {
+			color: #fff;
+			transition: all 0.2s;
+
+			&:hover {
+				color: $red-color;
+			}
+		}
+	}
+
+	&__info {
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 1.85;
+		color: #bbb;
+		text-align: center;
+		text-transform: uppercase;
+		word-break: break-word;
+	}
+}

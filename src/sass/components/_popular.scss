@@ -1,0 +1,57 @@
+.popular-items {
+	background: #262626;
+	padding-top: 65px;
+
+	.heading-post {
+		padding-right: 80px;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		margin-left: -20px;
+		border-bottom: 1px solid #2b2b2b;
+		padding-bottom: 25px;
+		margin-bottom: 40px;
+
+		.title {
+			font-weight: 600;
+			font-size: 24px;
+			line-height: 1.1;
+			color: #fff;
+			text-transform: uppercase;
+			word-break: break-word;
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+
+		.link {
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 1.5;
+			color: #e40914;
+			text-decoration: underline;
+			word-break: break-word;
+			border-left: 1px solid #2b2b2b;
+			padding: 3px 0 3px 20px;
+			transition: all 0.2s;
+			position: relative;
+			&::after {
+				position: absolute;
+				bottom: 3px;
+				left: 20px;
+				right: 0;
+				height: 1px;
+				content: "";
+				background-color: #e40914;
+				transition: all 0.2s;
+			}
+
+			&:hover {
+				color: #fff;
+			}
+
+			&:hover &::after {
+				background: #fff;
+			}
+		}
+	}
+}
