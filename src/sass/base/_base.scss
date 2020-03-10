@@ -50,3 +50,10 @@ html {
 body {
 	box-sizing: border-box;
 }
+
+.sticky {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}

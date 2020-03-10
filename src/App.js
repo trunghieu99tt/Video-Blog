@@ -8,8 +8,10 @@ import "./css/main.css";
 
 import BaseView from "./layout/BaseView";
 import Home from "./pages/Home";
-import Blog from "./pages/Blog";
+// import Blog from "./pages/Blog";
 import Videos from "./pages/Videos";
+import Detail from "./pages/Detail";
+import AboutUs from "./layout/AboutUs";
 
 class App extends Component {
 	render() {
@@ -17,8 +19,9 @@ class App extends Component {
 			<React.Fragment>
 				<Switch>
 					<Route exact path="/" component={Home} />
-					<Route exact path="/blog" component={Blog} />
+					<Route exact path="/details" component={Detail} />
 					<Route exact path="/videos" component={Videos} />
+					<Route exact path="/aboutus" component={AboutUs} />
 				</Switch>
 			</React.Fragment>
 		);

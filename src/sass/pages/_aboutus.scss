@@ -1,0 +1,47 @@
+.aboutus {
+	background: #fff;
+
+	.page-content {
+		.services {
+			&__heading {
+				max-width: 770px;
+				color: #1e1e1e;
+				line-height: 1.3;
+				font-size: 24px;
+				font-weight: 600;
+				text-transform: none;
+				margin: 0 auto;
+				text-align: center;
+			}
+
+			&__items {
+				margin-top: 50px;
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+				grid-gap: 40px;
+			}
+		}
+
+		.customer {
+			margin-top: 80px;
+			padding-bottom: 50px;
+
+			h3 {
+				max-width: 770px;
+				color: #1e1e1e;
+				line-height: 1.3;
+				font-size: 24px;
+				font-weight: 600;
+				text-transform: none;
+				margin: 0 auto;
+				text-align: center;
+				margin-bottom: 50px;
+			}
+
+			&-gallery {
+				padding: 30px 0;
+				background: #ebebeb;
+			}
+		}
+	}
+}

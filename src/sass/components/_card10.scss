@@ -1,0 +1,11 @@
+.card10 {
+	margin: 0 15px;
+
+	&:hover img {
+		opacity: 1;
+	}
+
+	img {
+		opacity: 0.6;
+	}
+}
