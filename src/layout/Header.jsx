@@ -52,12 +52,12 @@ export default class Header extends Component {
 			{
 				id: 1,
 				name: "home",
-				url: "/"
+				url: "/Video-Blog"
 			},
 			{
 				id: 2,
 				name: "details",
-				url: "/details",
+				url: "/Video-Blog/details",
 				submenu: {
 					parentId: 2,
 					data: [
@@ -87,12 +87,12 @@ export default class Header extends Component {
 			{
 				id: 3,
 				name: "videos",
-				url: "/videos"
+				url: "/Video-Blog/videos"
 			},
 			{
 				id: 4,
 				name: "about us",
-				url: "/aboutus"
+				url: "/Video-Blog/aboutus"
 			}
 		];
 
