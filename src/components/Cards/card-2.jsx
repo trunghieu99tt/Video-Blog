@@ -4,10 +4,7 @@ const Card2 = () => {
 	return (
 		<div class="post-item card2">
 			<div class="card2__pic">
-				<a
-					href="http://video-blog.thimpress.com/blog/archives/774"
-					tabindex="0"
-				>
+				<a href="#" tabindex="0">
 					<img
 						src="http://video-blog.thimpress.com/wp-content/uploads/2019/01/affair-asad-asadphoto-1024967-270x390.jpg"
 						alt="Top 15 Streamer WordPress Themes and Websites"

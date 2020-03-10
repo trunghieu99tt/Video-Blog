@@ -9,6 +9,12 @@ export default class News extends Component {
 			loop: true,
 			nav: true,
 			responsive: {
+				0: {
+					items: 1
+				},
+				768: {
+					items: 1
+				},
 				1170: {
 					items: 1
 				}

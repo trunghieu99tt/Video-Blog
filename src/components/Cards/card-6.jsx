@@ -3,10 +3,7 @@ import React from "react";
 const Card6 = props => {
 	return (
 		<div className="card6">
-			<a
-				href="http://video-blog.thimpress.com/blog/archives/281"
-				tabindex="0"
-			>
+			<a href="#" tabindex="0">
 				<img
 					src="http://video-blog.thimpress.com/wp-content/uploads/2019/01/6-3pexels-photo-1795771-570x350.jpeg"
 					alt="Introduction to VidTube: Best WordPress Video Blog Theme"

@@ -27,10 +27,7 @@ const Introduction = props => {
 										></img>
 									</div>
 
-									<a
-										href="http://video-blog.thimpress.com/blog/archives/256"
-										className="overlay"
-									></a>
+									<a href="#" className="overlay"></a>
 
 									<div className="meta-info">
 										<div className="imdb">
@@ -71,7 +68,7 @@ const Introduction = props => {
 									<span className="time-info">9:45 </span>
 
 									<a
-										href="#box-video-691"
+										href="#"
 										className="btn-play"
 										data-id="256"
 										data-effect="mfp-zoom-in"
@@ -87,10 +84,7 @@ const Introduction = props => {
 							<div class="col-lg-3">
 								<div class="text">
 									<h4 class="title">
-										<a
-											class="title"
-											href="http://video-blog.thimpress.com/blog/archives/256"
-										>
+										<a class="title" href="#">
 											#1 WordPress Theme for Video Blog{" "}
 										</a>
 									</h4>
@@ -111,7 +105,7 @@ const Introduction = props => {
 									</div>
 
 									<a
-										href="http://video-blog.thimpress.com/blog/archives/256"
+										href="#"
 										class="btn-readmore btn-normal shape-round"
 									>
 										Read More{" "}

@@ -188,7 +188,7 @@ li {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background: #262626;
 }
 
@@ -225,6 +225,10 @@ body {
   top: 0;
   left: 0;
   z-index: 99;
+}
+
+#root {
+  overflow-x: hidden;
 }
 
 .header {
@@ -757,6 +761,12 @@ body {
   text-align: center;
   word-break: break-word;
   margin-bottom: 32px;
+}
+
+@media (max-width: 75em) {
+  .footer-info {
+    margin-bottom: 30px;
+  }
 }
 
 .footer-form form {

@@ -21,6 +21,10 @@
 				margin-bottom: 32px;
 			}
 		}
+
+		@include respond(tab-land) {
+			margin-bottom: 30px;
+		}
 	}
 
 	&-form {

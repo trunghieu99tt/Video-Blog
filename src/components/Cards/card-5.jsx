@@ -3,7 +3,7 @@ import React from "react";
 const Card5 = props => {
 	return (
 		<div class="post-item card5">
-			<a href="http://video-blog.thimpress.com/blog/archives/946">
+			<a href="#">
 				<img
 					src="http://video-blog.thimpress.com/wp-content/uploads/2019/02/architecture-buildings-city-373893-460x605.jpg"
 					alt="How to get more audience with your vlog"

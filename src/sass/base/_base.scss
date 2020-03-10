@@ -26,7 +26,7 @@ li {
 }
 
 body {
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 	background: #262626;
 }
 
@@ -56,4 +56,8 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 99;
+}
+
+#root {
+	overflow-x: hidden;
 }

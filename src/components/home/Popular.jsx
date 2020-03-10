@@ -6,13 +6,9 @@ export default class Popular extends Component {
 	render() {
 		const options = {
 			loop: true,
-			// autoplay: true,
-			// dots: true,nav: true,
+
 			nav: true,
-			// navText: [
-			// 	"<div className='nav-btn prev-slide'></div>",
-			// 	"<div className='nav-btn next-slide'></div>"
-			// ],
+
 			responsive: {
 				0: {
 					items: 1

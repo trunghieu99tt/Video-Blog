@@ -12,9 +12,7 @@ const Card8 = props => {
 			</div>
 			<div class="card8__text">
 				<h4 class="card8__title">
-					<a href="http://video-blog.thimpress.com/blog/archives/203">
-						Comedians Pick Their Favorite TV Comedies
-					</a>
+					<a href="#">Comedians Pick Their Favorite TV Comedies</a>
 				</h4>
 				<span class="card8__date">January 7, 2019</span>
 			</div>

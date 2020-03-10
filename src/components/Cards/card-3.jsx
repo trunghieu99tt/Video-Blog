@@ -11,11 +11,7 @@ const Card3 = props => {
 
 			<div class="card3__overlay"></div>
 
-			<a
-				href="http://video-blog.thimpress.com/blog/archives/category/video/latest-videos/top-box-office"
-				class="card3__content"
-				tabindex="0"
-			>
+			<a href="#" class="card3__content" tabindex="0">
 				<span class="card3__title">Top Box Office</span> 8 Movies{" "}
 			</a>
 		</div>

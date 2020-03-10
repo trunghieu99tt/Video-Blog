@@ -3,7 +3,7 @@ import React from "react";
 const Card4 = props => {
 	return (
 		<div class="post-item card4">
-			<a href="http://video-blog.thimpress.com/blog/archives/947">
+			<a href="#">
 				<img
 					src="http://video-blog.thimpress.com/wp-content/uploads/2019/02/amazing-architecture-beautiful-1487674-223x296.jpg"
 					alt="Vividly Bloggers opens up about life in Mexico"
