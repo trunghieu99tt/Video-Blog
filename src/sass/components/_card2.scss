@@ -1,5 +1,15 @@
 .card2 {
 	margin-right: 20px;
+	cursor: pointer;
+
+	&:hover .btn-play {
+		opacity: 1;
+	}
+
+	&:hover &__overlay {
+		opacity: 0.5;
+	}
+
 	&__pic {
 		position: relative;
 		z-index: 1;

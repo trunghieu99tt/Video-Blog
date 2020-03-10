@@ -10,8 +10,8 @@ export default class Header extends Component {
 			},
 			{
 				id: 2,
-				name: "shop",
-				url: "/shop",
+				name: "blog",
+				url: "/blog",
 				submenu: {
 					parentId: 2,
 					data: [
@@ -40,8 +40,8 @@ export default class Header extends Component {
 			},
 			{
 				id: 3,
-				name: "contact us",
-				url: "/contact"
+				name: "videos",
+				url: "/videos"
 			},
 			{
 				id: 4,
@@ -51,13 +51,13 @@ export default class Header extends Component {
 		];
 
 		const menuLinks = dataMenu.map(item => {
-			const { id, name, submenu } = item;
+			const { id, name, submenu, url } = item;
 
 			console.log(submenu);
 
 			return (
 				<li className="menu-item" key={`menu-item-${id}`}>
-					<a href="#" className="menu-item__link">
+					<a href={url} className="menu-item__link">
 						{name}
 					</a>
 

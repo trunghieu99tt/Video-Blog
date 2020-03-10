@@ -8,6 +8,7 @@
 @import "base/utilities";
 
 @import "layout/header";
+@import "layout/footer";
 
 @import "components/introduction";
 @import "components/button";
@@ -18,7 +19,10 @@
 @import "components/card5";
 @import "components/card6";
 @import "components/card7";
+@import "components/card8";
 @import "components/popular";
 @import "components/trending";
 @import "components/latest";
 @import "components/news";
+
+@import "pages/videos";

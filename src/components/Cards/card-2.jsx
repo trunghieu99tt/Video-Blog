@@ -48,7 +48,7 @@ const Card2 = () => {
 				</div>
 
 				<a
-					href="#box-video-129"
+					href="/details"
 					class="btn-play"
 					data-id="774"
 					tabindex="0"
@@ -62,10 +62,7 @@ const Card2 = () => {
 			</div>
 
 			<h4 class="card2__title">
-				<a
-					href="http://video-blog.thimpress.com/blog/archives/774"
-					tabindex="0"
-				>
+				<a href="/details" tabindex="0">
 					Top 15 Streamer WordPress Themes and Websites{" "}
 				</a>
 			</h4>

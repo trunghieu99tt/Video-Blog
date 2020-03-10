@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const BaseView = (WrappedComponent, props) => {
 	return class extends Component {
@@ -8,7 +9,7 @@ const BaseView = (WrappedComponent, props) => {
 				<React.Fragment>
 					<Header />
 					<WrappedComponent {...props} />
-					{/* <Footer /> */}
+					<Footer />
 				</React.Fragment>
 			);
 		}
