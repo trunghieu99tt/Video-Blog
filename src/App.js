@@ -19,17 +19,9 @@ class App extends Component {
 			<React.Fragment>
 				<Switch>
 					<Route exact path="/Video-Blog" component={Home} />
-					<Route
-						exact
-						path="/Video-Blog/details"
-						component={Detail}
-					/>
-					<Route exact path="/Video-Blog/videos" component={Videos} />
-					<Route
-						exact
-						path="/Video-Blog/aboutus"
-						component={AboutUs}
-					/>
+					<Route exact path="/details" component={Detail} />
+					<Route exact path="/videos" component={Videos} />
+					<Route exact path="/aboutus" component={AboutUs} />
 				</Switch>
 			</React.Fragment>
 		);
